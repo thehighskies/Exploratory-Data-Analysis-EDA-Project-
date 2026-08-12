@@ -7,7 +7,7 @@ This project performs an extensive **Exploratory Data Analysis (EDA)** on the Go
 ```
 SQL_EDA_Project/
 ├── EDA_project.sql    # Main SQL script containing all EDA queries
-README.md          # Project documentation
+README.md              # Project documentation
 ```
 
 ## Database Architecture
