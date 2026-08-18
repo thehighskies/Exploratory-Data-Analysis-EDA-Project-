@@ -6,8 +6,9 @@ This project performs an extensive **Exploratory Data Analysis (EDA)** on the Go
 ## Project Structure
 ```
 SQL_EDA_Project/
-├── EDA_project.sql    # Main SQL script containing all EDA queries
-└── README.md          # Project documentation
+├── EDA_project.sql           # Main SQL script containing all EDA queries
+├── key_metrics_report.sql    # Key metrics and KPI summary report
+└── README.md                 # Project documentation
 ```
 
 ## Database Architecture
@@ -45,7 +46,7 @@ Calculates key business metrics at various aggregation levels:
 - Average selling price
 - Total orders and distinct orders
 - Product and customer counts
-- **Key Measures Report**: Comprehensive summary of all critical business metrics
+- **Key Metrics Report** (`key_metrics_report.sql`): Comprehensive summary of all critical business metrics and KPIs
 
 ### 5. **Magnitude Analysis**
 Compares measures by dimensions to understand relative importance:
@@ -136,12 +137,6 @@ The analysis provides answers to:
 - Window functions (ROW_NUMBER, SUM OVER)
 - Common aggregations (GROUP BY, HAVING)
 - Date functions (DATEDIFF, YEAR, MONTH, GETDATE)
-
-## Author
-Khan
-
-## Version
-1.0 - Initial comprehensive EDA analysis
 
 ---
 *Last Updated: 2026*
